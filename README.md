@@ -10,7 +10,7 @@ Once you get project sources, go on project folder to install dependencies, and 
   ```  
 
 # Test contents
-Any test to be executed should be stored under [\features folder](https://github.com/DanielJR78/selenium-cucumber-sample/tree/main/features)
+Any test to be executed should be stored under [/features](https://github.com/DanielJR78/selenium-cucumber-sample/tree/main/features) folder.
 *Steps* included in these *.feature file* should be implemented in one of the .js files at */step-definitions* folder. 
 
 ### Config overview
