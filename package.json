@@ -1,13 +1,13 @@
 {
-  "name": "e2e-selenium-cucumber-js",
+  "name": "selenium-cucumber-sample",
   "version": "1.0.0",
   "description": "Web browser automation tests using Selenium-Webdriver and Cucumber-js",
   "main": "index.js",
   "scripts": {    
   },
-  "author": {
-    "name": "DanielJR"
-  },
+  "keywords": ["selenium", "cucumber", "testing"],
+  "author": "Daniel JR",
+  "homepage": "https://github.com/DanielJR78/selenium-cucumber-sample#readme",  
   "dependencies": {
     "@cucumber/cucumber": "^7.0.0-rc.0",
     "chai": "^4.2.0",
