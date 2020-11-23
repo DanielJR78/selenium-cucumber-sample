@@ -1,7 +1,7 @@
 {
   "name": "selenium-cucumber-sample",
   "version": "1.0.0",
-  "description": "Web browser automation tests using Selenium-Webdriver and Cucumber-js",
+  "description": "E2E BDD test automation using Selenium-Webdriver and Cucumber-js",
   "main": "index.js",
   "scripts": {    
   },
