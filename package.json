@@ -1,18 +1,22 @@
 {
-  "name": "hellocucumber",
+  "name": "e2e-selenium-cucumber-js",
   "version": "1.0.0",
-  "description": "",
+  "description": "Web browser automation tests using Selenium-Webdriver and Cucumber-js",
   "main": "index.js",
   "scripts": {
-    "test": "cucumber-js"
+    "e2e-test": "cucumber-js e2e"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
+  "author": {
+    "name": "DanielJR"
+  },
+  "dependencies": {
     "@cucumber/cucumber": "^7.0.0-rc.0",
-    "chromedriver": "^86.0.0",
+    "chai": "^4.2.0",
+    "chromedriver": "^87.0.0",
+    "cucumber-html-reporter": "^5.2.0",
+    "cucumber-junit": "^1.7.1",
+    "fs-plus": "^3.1.1",
     "selenium-webdriver": "^4.0.0-alpha.7"
   },
-  "dependencies": {}
+  "devDependencies": {}
 }
