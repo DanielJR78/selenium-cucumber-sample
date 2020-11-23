@@ -10,10 +10,10 @@ Once you get project sources, go on project folder to install dependencies, and 
   ```  
 
 # Test contents
-Any test to be executed should be stored under [\features folder](https://github.com/DanielJR78/cypress-cucumber-sample/tree/main/cypress/integration)
+Any test to be executed should be stored under [\features folder](https://github.com/DanielJR78/selenium-cucumber-sample/tree/main/features)
 *Steps* included in these *.feature file* should be implemented in one of the .js files at */step-definitions* folder. 
 
-### [Common folder](https://github.com/DanielJR78/cypress-cucumber-sample/tree/main/cypress/support)
+### Config overview
 Different approaches or patterns can be followed to manage steps and their implementation. In our example, steps are linked to functions existing in *action.js* file.
 In complement, *browser.js* provides some helpers to simplify the code above and *selector.js* stores the full list of element locators to facilitate its maintainance. Finally, *hooks.js* includes pre/postconditions (before/after/afterAll clauses, etc.) which are shared by all the features/executions.
 ```
@@ -29,6 +29,6 @@ features\support
                 |_ hooks.js                
 ```
 ### Config overview 
-The file *package.json* includes basic project info and dependencies which are installed with. In our case, most of them are related to Webdrivers and assertion libraries. Optionnally, in the "scripts" section, custom (sets of) commands can be declared here and launched from CLI using the alias.
-The files *cucumber.js*, *config.js*, *index.js* and *support/world.js* include project settings and environment's initialization.
+The file *package.json* includes basic project info and dependencies which are installed with. In our case, most of them are related to Webdrivers and assertion libraries. Optionnally, in the "scripts" section, custom (sets of) commands can be declared to launch them from CLI using alias.
+The files *cucumber.js*, *config.js*, *index.js* and *support/world.js* include project settings and its global initialization.
 
