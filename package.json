@@ -3,8 +3,7 @@
   "version": "1.0.0",
   "description": "Web browser automation tests using Selenium-Webdriver and Cucumber-js",
   "main": "index.js",
-  "scripts": {
-    "e2e-test": "cucumber-js e2e"
+  "scripts": {    
   },
   "author": {
     "name": "DanielJR"
