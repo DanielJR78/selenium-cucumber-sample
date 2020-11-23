@@ -6,7 +6,9 @@ Example of using Selenium Webdriver with Cucumber.
 Once you get project sources, go on project folder to install dependencies, and then launch tests from Cypress interface (*open*) or execute them all in headless mode (*run*) 
   ```
   npm install
-  ./node_modules/.bin/cucumber-js  
+  ./node_modules/.bin/cucumber-js                                           >> Test and get HTML report
+  ./node_modules/.bin/cucumber-js -f json:reports/cucumber-report.json      >> Test and get JSON report
+  
   ```  
 
 # Test contents
