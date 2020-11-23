@@ -1,0 +1,914 @@
+[
+  {
+    "description": "  As ...\n  In order ...\n  I want to ... ",
+    "elements": [
+      {
+        "description": "",
+        "id": "actions-requiring-login;login-is-required-to-process-orders",
+        "keyword": "Scenario",
+        "line": 14,
+        "name": "Login is required to process orders",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 5962000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "I go to Amazon home",
+            "match": {
+              "location": "features\\step-definitions\\navigation-steps.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1689000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I search for \"patinete\"",
+            "match": {
+              "location": "features\\step-definitions\\cart-steps.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2010000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "I accept cookies policies",
+            "match": {
+              "location": "features\\step-definitions\\navigation-steps.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 223000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "I open a random result",
+            "match": {
+              "location": "features\\step-definitions\\cart-steps.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2798000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 16,
+            "name": "I add the current item to the cart",
+            "match": {
+              "location": "features\\step-definitions\\cart-steps.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 170000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 17,
+            "name": "I open the cart page",
+            "match": {
+              "location": "features\\step-definitions\\navigation-steps.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5620000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "I process the current order",
+            "match": {
+              "location": "features\\step-definitions\\cart-steps.js:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 833000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "I should be redirected to the Signin page",
+            "match": {
+              "location": "features\\step-definitions\\navigation-steps.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 67000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@item",
+            "line": 13
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "actions-requiring-login;login-is-required-to-buy-now-products",
+        "keyword": "Scenario",
+        "line": 22,
+        "name": "Login is required to buy now products",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 5415000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "I go to Amazon home",
+            "match": {
+              "location": "features\\step-definitions\\navigation-steps.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1520000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I search for \"patinete\"",
+            "match": {
+              "location": "features\\step-definitions\\cart-steps.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3028000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "I accept cookies policies",
+            "match": {
+              "location": "features\\step-definitions\\navigation-steps.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 367000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "I open a random result",
+            "match": {
+              "location": "features\\step-definitions\\cart-steps.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3145000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 23,
+            "name": "I buy now the current item",
+            "match": {
+              "location": "features\\step-definitions\\cart-steps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 355000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 24,
+            "name": "I should be redirected to the Signin page",
+            "match": {
+              "location": "features\\step-definitions\\navigation-steps.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 861000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 93000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@item",
+            "line": 21
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "actions-requiring-login;login-is-required-to-add-items-to-wishlist",
+        "keyword": "Scenario",
+        "line": 27,
+        "name": "Login is required to add items to wishlist",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 5345000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "I go to Amazon home",
+            "match": {
+              "location": "features\\step-definitions\\navigation-steps.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1344000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I search for \"patinete\"",
+            "match": {
+              "location": "features\\step-definitions\\cart-steps.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2583000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "I accept cookies policies",
+            "match": {
+              "location": "features\\step-definitions\\navigation-steps.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 465000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "I open a random result",
+            "match": {
+              "location": "features\\step-definitions\\cart-steps.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2728000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 28,
+            "name": "I add the current item to the wishlist",
+            "match": {
+              "location": "features\\step-definitions\\cart-steps.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 468000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 29,
+            "name": "I should be redirected to the Signin page",
+            "match": {
+              "location": "features\\step-definitions\\navigation-steps.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 67000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wish",
+            "line": 26
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "actions-requiring-login",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "Actions requiring login",
+    "tags": [],
+    "uri": "features\\amazon-login-required.feature"
+  },
+  {
+    "description": "  As ...\n  In order ...\n  I want to ...",
+    "elements": [
+      {
+        "description": "",
+        "id": "search-and-results-functionalities;search-with-results-multi",
+        "keyword": "Scenario Outline",
+        "line": 8,
+        "name": "Search with results multi",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 5284000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "I go to Amazon home",
+            "match": {
+              "location": "features\\step-definitions\\navigation-steps.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1313000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "I search for \"Samsung\"",
+            "match": {
+              "location": "features\\step-definitions\\cart-steps.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2740000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "I accept cookies policies",
+            "match": {
+              "location": "features\\step-definitions\\navigation-steps.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 462000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "I should be redirected to the Results page",
+            "match": {
+              "location": "features\\step-definitions\\navigation-steps.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 34000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "result header should contain \"Samsung\"",
+            "match": {
+              "location": "features\\step-definitions\\search-steps.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 65000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "any result title should contain \"Samsung\"",
+            "match": {
+              "location": "features\\step-definitions\\search-steps.js:13"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 10026000000,
+              "error_message": "Error: function timed out, ensure the promise resolves within 10000 milliseconds\n    at Timeout._onTimeout (C:\\users\\djichi\\desktop\\testing\\selenium\\e2e\\node_modules\\@cucumber\\cucumber\\lib\\user_code_runner.js:63:28)\n    at listOnTimeout (internal/timers.js:554:17)\n    at processTimers (internal/timers.js:497:7)"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 72000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@searchRes",
+            "line": 7
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "search-and-results-functionalities;search-with-results-multi",
+        "keyword": "Scenario Outline",
+        "line": 8,
+        "name": "Search with results multi",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 5092000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "I go to Amazon home",
+            "match": {
+              "location": "features\\step-definitions\\navigation-steps.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1942000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "I search for \"moto\"",
+            "match": {
+              "location": "features\\step-definitions\\cart-steps.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2050000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "I accept cookies policies",
+            "match": {
+              "location": "features\\step-definitions\\navigation-steps.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 268000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "I should be redirected to the Results page",
+            "match": {
+              "location": "features\\step-definitions\\navigation-steps.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 41000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "result header should contain \"moto\"",
+            "match": {
+              "location": "features\\step-definitions\\search-steps.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 30000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "any result title should contain \"moto\"",
+            "match": {
+              "location": "features\\step-definitions\\search-steps.js:13"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 10009000000,
+              "error_message": "Error: function timed out, ensure the promise resolves within 10000 milliseconds\n    at Timeout._onTimeout (C:\\users\\djichi\\desktop\\testing\\selenium\\e2e\\node_modules\\@cucumber\\cucumber\\lib\\user_code_runner.js:63:28)\n    at listOnTimeout (internal/timers.js:554:17)\n    at processTimers (internal/timers.js:497:7)"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 71000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@searchRes",
+            "line": 7
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "search-and-results-functionalities;search-with-results-multi",
+        "keyword": "Scenario Outline",
+        "line": 21,
+        "name": "Search with results multi",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 5170000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 22,
+            "name": "I go to Amazon home",
+            "match": {
+              "location": "features\\step-definitions\\navigation-steps.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1224000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 23,
+            "name": "I search for \"jgffxxwwzz\"",
+            "match": {
+              "location": "features\\step-definitions\\cart-steps.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1449000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 24,
+            "name": "I accept cookies policies",
+            "match": {
+              "location": "features\\step-definitions\\navigation-steps.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 125000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 25,
+            "name": "I should be redirected to the Results page",
+            "match": {
+              "location": "features\\step-definitions\\navigation-steps.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 26,
+            "name": "no results header should be shown",
+            "match": {
+              "location": "features\\step-definitions\\search-steps.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 77000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "search-and-results-functionalities;sort-results-by-price-ascendant",
+        "keyword": "Scenario Outline",
+        "line": 32,
+        "name": "Sort results by price ascendant",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 5122000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 33,
+            "name": "I go to Amazon home",
+            "match": {
+              "location": "features\\step-definitions\\navigation-steps.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1169000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 34,
+            "name": "I search for \"coche\"",
+            "match": {
+              "location": "features\\step-definitions\\cart-steps.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2340000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 35,
+            "name": "I accept cookies policies",
+            "match": {
+              "location": "features\\step-definitions\\navigation-steps.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 266000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 36,
+            "name": "I sort results by price asc",
+            "match": {
+              "location": "features\\step-definitions\\search-steps.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 658000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 37,
+            "name": "I should be redirected to the Results page",
+            "match": {
+              "location": "features\\step-definitions\\navigation-steps.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 38,
+            "name": "any result should have a price lower than next one",
+            "match": {
+              "location": "features\\step-definitions\\search-steps.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 737000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 95000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@debug",
+            "line": 31
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "search-and-results-functionalities;sort-results-by-price-ascendant",
+        "keyword": "Scenario Outline",
+        "line": 32,
+        "name": "Sort results by price ascendant",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 5092000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 33,
+            "name": "I go to Amazon home",
+            "match": {
+              "location": "features\\step-definitions\\navigation-steps.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1172000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 34,
+            "name": "I search for \"patin\"",
+            "match": {
+              "location": "features\\step-definitions\\cart-steps.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2777000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 35,
+            "name": "I accept cookies policies",
+            "match": {
+              "location": "features\\step-definitions\\navigation-steps.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 404000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 36,
+            "name": "I sort results by price asc",
+            "match": {
+              "location": "features\\step-definitions\\search-steps.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 488000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 37,
+            "name": "I should be redirected to the Results page",
+            "match": {
+              "location": "features\\step-definitions\\navigation-steps.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 12000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 38,
+            "name": "any result should have a price lower than next one",
+            "match": {
+              "location": "features\\step-definitions\\search-steps.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 919000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 74000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@debug",
+            "line": 31
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "search-and-results-functionalities",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "Search and results functionalities",
+    "tags": [],
+    "uri": "features\\amazon-search-items.feature"
+  }
+]
