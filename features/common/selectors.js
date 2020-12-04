@@ -9,7 +9,7 @@ module.exports = {
     //elements
     'homeSearchInput': '//*[@id="twotabsearchtextbox"]',
     'homeSearchResult': '.sg-col-4-of-24:nth-child(#) .s-image',        
-    'homeSearchResultRandom': '//div[@id="search"]/div/div[2]/div/span[3]/div[2]/div[9]/div/span/div/div/div[2]/h2/a/span',
+    'homeSearchResultRandom': '//div[@id="search"]/div/div[2]/div/span[3]/div[2]/div[14]/div/span/div/div/div[2]/h2/a/span',
     'homeSearchResultTitle': '//div[@id="search"]/div/div[2]/div/span[3]/div[2]/div[#]/div/span/div/div/div[2]/h2/a/span',    
     'homeSearchResultPrice': '.sg-col-4-of-24:nth-child(#) .a-price-whole',
     'homeSearchButton': '//*[@id="nav-search-submit-text"]',
