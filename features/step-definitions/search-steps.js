@@ -4,9 +4,13 @@ const {
     shouldHeaderNoResults,
     shouldTitlesContain,
     performOrderResultsByPriceAsc,
-    shouldOrderResultsByPriceAsc
+    shouldOrderResultsByPriceAsc,    
+    performSearch,   
+    navigateToResult
 } = require('../common/action');
 
+Given(/^I search for "([^"]*)"$/, performSearch);
+Given(/^I open a random result$/, navigateToResult);
 When(/^I sort results by price asc$/, performOrderResultsByPriceAsc);
 Then(/^result header should contain "([^"]*)"$/, shouldHeaderContain);
 Then(/^no results header should be shown$/, shouldHeaderNoResults);
