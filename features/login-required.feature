@@ -14,8 +14,7 @@ Feature: Actions requiring login
     When I open the cart page
      And I process the current order
     Then I should be redirected to the Signin page
-  
-  @only_this
+    
   Scenario: Login is required to buy now products
     When I buy now the current item     
     Then I should be redirected to the Signin page
